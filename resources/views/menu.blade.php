@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Principal</title>
-    <link rel="stylesheet" href="{{asset('style.css')}}">
+    <link rel="stylesheet" href="{{asset('menu.css')}}">
 </head>
 <body>
 <div class="valortotal">
@@ -25,6 +25,13 @@
 <a link href="mes.php">
 <div class=recebermes>
     <h3>A receber no mês</h3>
+     <!-- fazer depois qndo tiver banco de dados->      <h1> " ?php $_POST['']   ?>" eae po</h1> -->
+</div>
+</a>
+
+<a link href="pendencias.php">
+<div class=pendencia>
+    <h3>Pendências e alertas</h3>
      <!-- fazer depois qndo tiver banco de dados->      <h1> " ?php $_POST['']   ?>" eae po</h1> -->
 </div>
 </a>
