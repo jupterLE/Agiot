@@ -13,14 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('emprestimos', function (Blueprint $table) {
+        Schema::create('Calculo', function (Blueprint $table) {
             $table->id();
-            $table->string('nome',200);
-            $table->float('valor', 99999);
-            $table->float('juros', 1);           
-            $table->string('imagem', 999);
             $table->timestamps();
-
         });
     }
 
@@ -31,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('emprestimos');
+        Schema::dropIfExists('Calculo');
     }
 };

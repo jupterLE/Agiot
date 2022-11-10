@@ -9,3 +9,5 @@ class Emprestimo extends Model
 {
     use HasFactory;
 }
+
+

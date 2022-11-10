@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EmprestimoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,18 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/header', function () {
     return view('header');
 });
-
-Route::get('/menu', function () {
-    return view('header','menu');
-});
-
 
 use App\Http\Controllers\MenuController;
 Route::resource('/menu', MenuController::class);

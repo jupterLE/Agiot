@@ -10,3 +10,4 @@ class MenuController extends Controller
         return view('menu',$data);
     }
 }
+
